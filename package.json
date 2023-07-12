@@ -2,11 +2,15 @@
   "private": true,
   "name": "@monorepo/root",
   "scripts": {
-    "app": "yarn workspace @s/app"
+    "app": "yarn workspace @s/app",
+    "web": "yarn workspace @s/web"
   },
   "workspaces": [
     "apps/*",
     "packages/*"
   ],
-  "packageManager": "yarn@3.6.1"
+  "packageManager": "yarn@3.6.1",
+  "devDependencies": {
+    "react-query": "^3.39.3"
+  }
 }
