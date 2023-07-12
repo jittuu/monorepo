@@ -1,0 +1,12 @@
+{
+  "private": true,
+  "name": "@monorepo/root",
+  "scripts": {
+    "app": "yarn workspace @s/app"
+  },
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "packageManager": "yarn@3.6.1"
+}
